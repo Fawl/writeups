@@ -141,7 +141,7 @@ Curiously enough, while I was doing translation, GitHub Copilot was doing an exc
 Along with the behaviour I observed while translating the code, this further confirmed my base64 hypothesis.
 A quick Google search put any remaining doubt to rest.
 
-[hehe](./images/runtime_env_1_1.png)
+![hehe](./images/runtime_env_1_1.png)
 
 Reversing the base64 encryption is easy with the help of Python's `base64` module.
 This can be accomplished in a few steps:
@@ -174,7 +174,7 @@ print(out)
 ```
 
 Running the function once spits out yet another base64-encoded string.
-Wrapping repeated calls to our custom base64 decode yields the flag, eventually.
+Wrapping repeated calls to our custom base64 decode in a while loop yields the flag, eventually.
 
 ```powershell
 ❯ python .\solve_gogogo.py
