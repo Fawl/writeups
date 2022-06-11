@@ -111,8 +111,8 @@ I decided to go with the second method, to push myself. Automatic reversing has 
 ## Terminator
 
 Even after deciding on automatic reversal, there were a few more choices to make.
-    * Constants could either be extracted statically, or dynamically. I opted for the former, first.
-    * Solving for the password - this could be done using a bruteforce. But how so?
+* Constants could either be extracted statically, or dynamically. I opted for the former, first.
+* Solving for the password - this could be done using a bruteforce. But how so?
 
 Initially, I wanted to extract constants statically and with a simple character-based bruteforce in the name of speed, since I assumed that valid input characters would be printable strings.
 
